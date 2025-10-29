@@ -24,8 +24,8 @@ database:
   distributed: true
   
 features:
-  auto_scaling: advanced
-  load_balancer: ai-optimized
+  auto_scaling:true
+  load_balancer:enabled
   backup_enabled: true
   chaos_engineering: enabled
   
